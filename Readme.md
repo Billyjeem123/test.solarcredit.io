@@ -26,8 +26,6 @@ To access visit [solarcredit](https://documenter.getpostman.com/view/21023738/2s
 * The boilerplate has been reconfigured, so you no longer need to include the .php extension when testing  endpoint on any  tools such as Postman and co
 ---
 
-## Contact Developer
-`
-If you have any questions, please feel free to contact  billycodes @ 2348117283226
+
 
 
