@@ -1,0 +1,12 @@
+{
+    "autoload": {
+        "psr-4": {
+            "": "v0.1/assets/models"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "phpmailer/phpmailer": "^6.8",
+        "phpoffice/phpspreadsheet": "^1.29"
+    }
+}

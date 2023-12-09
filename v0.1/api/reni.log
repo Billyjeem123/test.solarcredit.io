@@ -1,0 +1,5 @@
+[2023-09-20 06:05:46] An error occurred while processing feedback in Users::registerUser
+Error Message: Undefined variable $newsLetter at /home/greeuwgm/test.solarcredit.io/v0.1/assets/models/Users.php on line 101[2023-10-24 14:57:37] An error occurred while processing feedback in Users::registerUser
+Error Message: Undefined array key "ReniTrust" at /home/greeuwgm/test.solarcredit.io/v0.1/assets/models/NewsLetter.php on line 344[2023-10-24 14:58:12] An error occurred while processing feedback in Users::registerUser
+Error Message: Undefined array key "ReniTrust" at /home/greeuwgm/test.solarcredit.io/v0.1/assets/models/NewsLetter.php on line 344[2023-10-25 20:17:31] An error occurred while processing feedback in Users::registerUser
+Error Message: Undefined array key "ReniTrust" at /home/greeuwgm/test.solarcredit.io/v0.1/assets/models/NewsLetter.php on line 344
