@@ -923,7 +923,7 @@ abstract class AbstractClasses {
 
             // If no history is found, add a status to the month data
             if (!$historyFound) {
-                $month['payyment_status'] = "No payment history available";
+                $month['historyData'] = "No payment history available";
             }
         }
 
