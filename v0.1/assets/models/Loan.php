@@ -737,11 +737,11 @@ class Loan extends AbstractClasses {
                 $verifyNextOfKin = $this->verifyNextOfKin($allLoanRecords['usertoken']);
                 $getAllLoanGuarantors = $this->getAllLoanGuarantors($allLoanRecords['token']);
                 $getAllLoanColleterals = $this->getAllLoanColleterals($allLoanRecords['token']);
-                $getAllRecordsOfMonthExpectedToPay = $this->getAllRecordsOfMonthExpectedToPay($allLoanRecords['token']);
+                 $getAllRecordsOfMonthExpectedToPay = $this->getAllRecordsOfMonthExpectedToPay($allLoanRecords['token']);
                 $getProviderDetails = $this->getProviderInfoByID($allLoanRecords['providerid']);
                 $getUserData = $this->getUserdata($allLoanRecords['usertoken']);
                 $getPaymentHistory = $this->getPaymentHistory($getUserData['renitoken'], $allLoanRecords['auto_debit_approval_token']);
-                $mergePaymentHistoryIntoMonths = $this->mergePaymentHistoryIntoMonths($getAllRecordsOfMonthExpectedToPay, $getPaymentHistory['data']['history']);
+                 $mergePaymentHistoryIntoMonths = $this->mergePaymentHistoryIntoMonths($getAllRecordsOfMonthExpectedToPay, $getPaymentHistory['data']['history']);
 
                 // Determine loan status and completion status
                 $loanStatus = ($allLoanRecords['status'] == 1) ? 'Approved' : (($allLoanRecords['status'] == 2) ? 'Declined' : 'Pending');
