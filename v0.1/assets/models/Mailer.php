@@ -14,7 +14,6 @@ class Mailer
     $mail->Host = $_ENV['HOST_NAME'];
     $mail->SMTPAuth = true;
     $mail->Username = $_ENV['SMTP_USERNAME'];
-    $mail->Password = $_ENV['SMTP_PWORD'];
     $mail->SMTPSecure = 'ssl';
     $mail->Port = 465;
     $mail->setFrom($_ENV['APP_MAIL'], $_ENV['APP_NAME']);
